@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,500&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: rgb(32, 32, 32);
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.principal {
+    margin-top: 25px;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 100px;
+    border-radius: 15px;
+    margin: 0 15px;
+    outline: none;
+    font-size: 37px;
+    padding: 0 25px;
+    transition: border 0.5s;
+}
+
+input:focus {
+    border-color: red;
+}
+
+.container {
+    display: flex;
+}
+
+.resposta {
+    background-color: rgb(129, 46, 46);
+    margin: 20px auto;
+    padding: 25px;
+    animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+.divbtn {
+    margin-top: 15px;
+}
+
+.primary-btn {
+    margin: 0 auto;
+    margin: 0 15px;
+    width: 110px;
+    height: 45px;
+    border-radius: 11px;
+    background-color: rgb(32, 32, 32);
+    border-color: rgb(129, 46, 46);
+    border-width: 3px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.primary-btn:active {
+    transform: scale(0.95);
+}
